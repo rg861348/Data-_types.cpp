@@ -19,7 +19,130 @@ String (string): The program takes an input word (the program points out that ci
 Boolean (bool): The program takes a boolean input(0=false, 1=true), displays it, then prints its size which is of 1 bytes.
 
 Algorithm:
+Step-wise Algorithm
 
-Start the program. Declare an integer variable a. Prompt: Enter integer number Input: Read value into a Output: Display value of a and its size using sizeof(a) Declare a float variable b. Prompt: Enter floating number Input: Read value into b Output: Display value of b and its size using sizeof(b) Declare a character variable c. Prompt: Enter Character Input: Read value into c Output: Display value of c and its size using sizeof(c) Declare a double variable e. Prompt: Enter double int number Input: Read value into e Output: Display value of e and its size using sizeof(e) Declare a string variable f. Prompt: Enter String Input: Read value into f Output: Display value of f and its size using sizeof(f) Declare a boolean variable d. Prompt: Enter Boolean value Input: Read value into Output: Display value of d and its size using sizeof(d) End the program.
+Step 1: Start the program
+
+Begin with including necessary headers: #include <iostream> and #include <string>.
+
+Use using namespace std; to simplify code syntax.
+
+
+Step 2: Declare an integer variable
+
+1. Declare an integer variable a.
+
+
+2. Prompt the user: Enter integer number.
+
+
+3. Read input into a.
+
+
+4. Display the value of a.
+
+
+5. Display the memory size using sizeof(a).
+
+
+
+Step 3: Declare a float variable
+
+6. Declare a float variable b.
+
+
+7. Prompt the user: Enter floating number.
+
+
+8. Read input into b.
+
+
+9. Display the value of b.
+
+
+10. Display the memory size using sizeof(b).
+
+
+
+Step 4: Declare a character variable
+
+11. Declare a character variable c.
+
+
+12. Prompt the user: Enter character.
+
+
+13. Read input into c.
+
+
+14. Display the value of c.
+
+
+15. Display the memory size using sizeof(c).
+
+
+
+Step 5: Declare a double variable
+
+16. Declare a double variable e.
+
+
+17. Prompt the user: Enter double number.
+
+
+18. Read input into e.
+
+
+19. Display the value of e.
+
+
+20. Display the memory size using sizeof(e).
+
+
+
+Step 6: Declare a string variable
+
+21. Declare a string variable f.
+
+
+22. Prompt the user: Enter string (no spaces).
+
+
+23. Read input into f using cin.
+
+
+24. Display the value of f.
+
+
+25. Display the memory size using sizeof(f).
+
+
+
+Step 7: Declare a boolean variable
+
+26. Declare a boolean variable d.
+
+
+27. Prompt the user: Enter boolean value (0 or 1).
+
+
+28. Read input into d.
+
+
+29. Display the value of d.
+
+
+30. Display the memory size using sizeof(d).
+
+
+Step 8: End the program
+
+31. Print a message indicating the end of program.
+
+
+32. Use return 0; to exit successfully.
+
+
+
 
 Conclusion: The program display all the values and their sizes in memory. This makes it easier for users to learn how to apply datatypes practically in C++, but also introduces them to the concept of memory allocation of datatypes.
